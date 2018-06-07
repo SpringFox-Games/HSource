@@ -19,6 +19,16 @@ public class Quaternion
 	{
 		return (float)Math.sqrt(x * x + y * y + z * z + w * w);
 	}
+	
+	public Quaternion normalize()
+	{
+		float length = length();
+		
+		x /= length;
+		y /= length;
+		z /= length;
+		w /= length;
+	}
 
 	public float getY() {
 		return y;
