@@ -13,6 +13,32 @@ public class Vector3f
 		this.setZ(z);
 	}
 
+	public float length()
+	{
+		return (float)Math.sqrt(x * x + y * y + z * z);
+	}
+	
+	public float dot(Vector3f r)
+	{
+		return x * r.getX()	+ y * r.getY() + x * r.getZ();
+	}
+	
+	public Vector3f normalize()
+	{
+		float length = length();
+		
+		x /= length;
+		y /= length;
+		z /= length;
+		
+		return this;
+	}
+	
+	public Vector3f rotate()
+	{
+		return null;
+	}
+	
 	public float getX() {
 		return x;
 	}
