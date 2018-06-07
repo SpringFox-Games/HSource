@@ -15,7 +15,10 @@ public class Quaternion
 		this.setW(w);
 	}
 	
-	
+	public float length()
+	{
+		return (float)Math.sqrt(x * x + y * y + z * z + w * w);
+	}
 
 	public float getY() {
 		return y;
