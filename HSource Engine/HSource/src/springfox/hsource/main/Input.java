@@ -7,11 +7,13 @@ import org.lwjgl.input.Mouse;
 public class Input 
 {
 	public static final int NUM_KEYCODES = 256;
+	public static final int NUM_MOUSEBUTTONS = 10;
 	
 	private static ArrayList<Integer> currentKeys = new ArrayList<Integer>();
 	private static ArrayList<Integer> downKeys = new ArrayList<Integer>();
 	private static ArrayList<Integer> upKeys = new ArrayList<Integer>();
 	
+	private static ArrayList<Integer> currentMouse = new ArrayList<Integer>();
 	private static ArrayList<Integer> downMouse = new ArrayList<Integer>();
 	private static ArrayList<Integer> upMouse = new ArrayList<Integer>();
 	
@@ -33,6 +35,12 @@ public class Input
 		for(int i = 0; i < NUM_KEYCODES; i++)
 			if(getKey(i))
 				currentKeys.add(i);
+		
+		currentMouse.clear();
+		
+		for(int i = 0; i < NUM_MOUSEBUTTONS; i++)
+			if(getMouse(i))
+				currentMouse.add(i);
 	}
 	
 	public static boolean getKey(int keyCode)
