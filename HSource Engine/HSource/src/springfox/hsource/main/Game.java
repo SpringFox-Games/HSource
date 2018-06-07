@@ -12,10 +12,10 @@ public class Game
 	public void input()
 	{
 		//Mouse and Keyboard Testing
-		if(Input.getKeyDown(Keyboard.KEY_0))
+		if(Input.GetKeyDown(Keyboard.KEY_0))
 			System.out.println("Pressing 0");
-		if(Input.getMouseDown(1))
-			System.out.println("Right Clicking at " + Input.getMousePosition().toString());
+		if(Input.GetKeyDown(1))
+			System.out.println("Right Clicking at " + Input.GetMousePosition().toString());
 	}
 	
 	public void update()
