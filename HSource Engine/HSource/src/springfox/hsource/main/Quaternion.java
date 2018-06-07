@@ -28,6 +28,8 @@ public class Quaternion
 		y /= length;
 		z /= length;
 		w /= length;
+		
+		return this;
 	}
 
 	public float getY() {
