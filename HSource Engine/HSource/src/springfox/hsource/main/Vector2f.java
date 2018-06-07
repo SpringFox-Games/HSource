@@ -33,8 +33,8 @@ public class Vector2f
 	public Vector2f rotate(float angle)
 	{
 		double rad = Math.toRadians(angle);
-		double cos = Math.cos(angle);
-		double sin = Math.sin(angle);
+		double cos = Math.cos(rad);
+		double sin = Math.sin(rad);
 		
 		return new Vector2f((float)(x * cos - y * sin),(float)(x * sin + y * cos));
 	}
