@@ -25,6 +25,11 @@ public class Window
 		Display.update();
 	}
 	
+	public static void dispose()
+	{
+		Display.destroy();
+	}
+	
 	public static boolean isCloseRequested()
 	{
 		return Display.isCloseRequested();
