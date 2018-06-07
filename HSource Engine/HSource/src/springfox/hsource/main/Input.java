@@ -2,6 +2,7 @@ package springfox.hsource.main;
 
 import java.util.ArrayList;
 import org.lwjgl.input.Keyboard;
+import org.lwjgl.input.Mouse;
 
 public class Input 
 {
@@ -10,6 +11,9 @@ public class Input
 	private static ArrayList<Integer> currentKeys = new ArrayList<Integer>();
 	private static ArrayList<Integer> downKeys = new ArrayList<Integer>();
 	private static ArrayList<Integer> upKeys = new ArrayList<Integer>();
+	
+	private static ArrayList<Integer> downMouse = new ArrayList<Integer>();
+	private static ArrayList<Integer> upMouse = new ArrayList<Integer>();
 	
 	public static void update()
 	{
@@ -38,17 +42,29 @@ public class Input
 	
 	public static boolean getKeyDown(int keyCode)
 	{
-		if(downKeys.contains(keyCode))
-			return true;
-		
-		return false;
+		 return downKeys.contains(keyCode);
+
 	}
 	
 	public static boolean getKeyUp(int keyCode)
 	{
-		if(upKeys.contains(keyCode))
-			return false;
+		return upKeys.contains(keyCode);
 		
-		return true;
 	}
+	
+	public static boolean getMouse(int mouseButton)
+	{
+		return Mouse.isButtonDown(mouseButton);
+	}
+	
+	public static boolean getMouseDown(int mouseButton)
+	{
+		return downMouse.contains(mouseButton);
+	}
+	
+	public static boolean getMouseUp(int mouseButton)
+	{
+		return upMouse.contains(mouseButton);
+	}
+	
 }
