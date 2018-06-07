@@ -14,7 +14,7 @@ public class Game
 		//Mouse and Keyboard Testing
 		if(Input.GetKeyDown(Keyboard.KEY_0))
 			System.out.println("Pressing 0");
-		if(Input.GetKeyDown(1))
+		if(Input.GetMouseDown(1))
 			System.out.println("Right Clicking at " + Input.GetMousePosition().toString());
 	}
 	
