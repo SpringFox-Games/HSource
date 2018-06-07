@@ -9,6 +9,26 @@ public class Vector2f
 		this.setX(x);
 		this.setY(y);
 	}
+	
+	public float length()
+	{
+		return (float)Math.sqrt(x * x + y * y);
+	}
+	
+	public float dot(Vector2f r)
+	{
+		return x * r.getX()	+ y * r.getY();
+	}
+	
+	public Vector2f normalize()
+	{
+		float length = length();
+		
+		x /= length;
+		y /= length;
+		
+		return this;
+	}
 
 	private float y;
 
