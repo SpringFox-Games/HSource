@@ -29,6 +29,11 @@ public class Vector2f
 		
 		return this;
 	}
+	
+	public Vector2f rotate(float angle)
+	{
+		return null;
+	}
 
 	private float y;
 
