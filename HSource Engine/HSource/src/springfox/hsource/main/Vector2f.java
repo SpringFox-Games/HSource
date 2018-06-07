@@ -44,6 +44,36 @@ public class Vector2f
 	{
 		return new Vector2f(x + r, y + r);
 	}
+	
+	public Vector2f subtract(Vector2f r)
+	{
+		return new Vector2f(x - r.getX(), y - r.getY());
+	}
+	
+	public Vector2f subtract(float r)
+	{
+		return new Vector2f(x - r, y - r);
+	}
+	
+	public Vector2f multiply(Vector2f r)
+	{
+		return new Vector2f(x * r.getX(), y * r.getY());
+	}
+	
+	public Vector2f multiply(float r)
+	{
+		return new Vector2f(x * r, y * r);
+	}
+	
+	public Vector2f devide(Vector2f r)
+	{
+		return new Vector2f(x / r.getX(), y / r.getY());
+	}
+	
+	public Vector2f devide(float r)
+	{
+		return new Vector2f(x / r, y /+ r);
+	}
 
 	private float y;
 
