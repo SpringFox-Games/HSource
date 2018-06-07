@@ -19,6 +19,19 @@ public class Input
 	
 	public static void update()
 	{
+		upMouse.clear();
+		
+		for(int i = 0; i < NUM_MOUSEBUTTONS; i++)
+			if(!getMouse(i) && currentMouse.contains(i))
+				upMouse.add(i);
+		
+		downMouse.clear();
+		
+		for(int i = 0; i < NUM_MOUSEBUTTONS; i++)
+			if(getMouse(i) && !currentMouse.contains(i))
+				downMouse.add(i);
+		
+		
 		upKeys.clear();
 		for(int i = 0; i < NUM_KEYCODES; i++)
 			if(!getKey(i) && currentKeys.contains(i))
