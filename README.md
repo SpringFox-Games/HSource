@@ -18,9 +18,3 @@ Mirror 3: NONE
 
 
 Download On Our Site: NONE
-
-
-
-
-
-# ---
