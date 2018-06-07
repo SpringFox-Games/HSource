@@ -6,12 +6,12 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringFox Team"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringFox Devs"/>
-	<classpathentry kind="lib" path="C:/Users/Spring/Documents/GitHub/HSource/slick-util.zip"/>
-	<classpathentry kind="lib" path="C:/Users/Spring/Documents/GitHub/HSource/lwjgl-2.9.3.zip">
+	<classpathentry kind="lib" path="C:/Users/Spring/Documents/GitHub/HSource/HSource Engine/lib/jars/lwjgl.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Spring/Documents/GitHub/HSource/lwjgl-2.9.3/lwjgl-2.9.3/native/windows"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Spring/Documents/GitHub/HSource/HSource Engine/lib/natives-win"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Spring/Documents/GitHub/HSource/lwjgl-3.1.6.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Spring/Documents/GitHub/HSource/HSource Engine/lib/jars/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Spring/Documents/GitHub/HSource/HSource Engine/lib/jars/slick-util.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
