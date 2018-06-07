@@ -14,6 +14,8 @@ public class Quaternion
 		this.setZ(z);
 		this.setW(w);
 	}
+	
+	
 
 	public float getY() {
 		return y;
