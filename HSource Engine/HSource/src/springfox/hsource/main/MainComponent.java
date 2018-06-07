@@ -3,8 +3,8 @@ package springfox.hsource.main;
 public class MainComponent 
 {
 	
-	public static final int WIDTH = 1920;
-	public static final int HEIGHT = 1080;
+	public static final int WIDTH = 800;
+	public static final int HEIGHT = 600;
 	public static final String TITLE = "HSource SDK";
 	public static final double FRAME_CAP = 5000.0;
 	
