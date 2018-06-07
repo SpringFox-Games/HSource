@@ -39,6 +39,46 @@ public class Vector3f
 		return null;
 	}
 	
+	public Vector3f add(Vector3f r)
+	{
+		return new Vector3f(x + r.getX(), y + r.getY(), z + r.getZ());
+	}
+	
+	public Vector3f add(float r)
+	{
+		return new Vector3f(x + r, y + r, z + r);
+	}
+	
+	public Vector3f subtract(Vector3f r)
+	{
+		return new Vector3f(x - r.getX(), y - r.getY(), z - r.getZ());
+	}
+	
+	public Vector3f subtract(float r)
+	{
+		return new Vector3f(x - r, y - r, z - r);
+	}
+	
+	public Vector3f multiply(Vector3f r)
+	{
+		return new Vector3f(x * r.getX(), y * r.getY(), z * r.getZ());
+	}
+	
+	public Vector3f multiply(float r)
+	{
+		return new Vector3f(x * r, y * r, z * r);
+	}
+	
+	public Vector3f devide(Vector3f r)
+	{
+		return new Vector3f(x / r.getX(), y / r.getY(), z / r.getZ());
+	}
+	
+	public Vector3f devide(float r)
+	{
+		return new Vector3f(x / r, y / r, z / r);
+	}
+	
 	public float getX() {
 		return x;
 	}

@@ -1,7 +1,6 @@
 INDEX VERSION 1.130+C:\Users\Spring\Documents\GitHub\HSource\HSource Engine\.metadata\.plugins\org.eclipse.jdt.core
 3612272032.index
 3036558207.index
-4188789016.index
 1973436120.index
 3046280289.index
 820541902.index

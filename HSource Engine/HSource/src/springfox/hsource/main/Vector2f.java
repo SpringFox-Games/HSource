@@ -76,7 +76,7 @@ public class Vector2f
 	
 	public Vector2f devide(float r)
 	{
-		return new Vector2f(x / r, y /+ r);
+		return new Vector2f(x / r, y / r);
 	}
 
 	private float y;
