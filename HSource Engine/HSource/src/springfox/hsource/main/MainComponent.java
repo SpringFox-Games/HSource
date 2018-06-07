@@ -67,6 +67,7 @@ public class MainComponent
 					stop();
 				
 				Time.setDelta(frameTime);
+				Input.update();
 				
 				game.input();
 				game.update();

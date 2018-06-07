@@ -1,5 +1,7 @@
 package springfox.hsource.main;
 
+import org.lwjgl.input.Keyboard;
+
 public class Game 
 {
 	public Game()
@@ -9,7 +11,7 @@ public class Game
 	
 	public void input()
 	{
-		
+
 	}
 	
 	public void update()
