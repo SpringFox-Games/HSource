@@ -32,6 +32,9 @@ public class Vector2f
 	
 	public Vector2f rotate(float angle)
 	{
+		double rad = Math.toRadians(angle);
+		double cos = Math.cos(angle);
+		
 		return null;
 	}
 	
