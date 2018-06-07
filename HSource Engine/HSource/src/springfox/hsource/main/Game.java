@@ -15,7 +15,7 @@ public class Game
 		if(Input.getKeyDown(Keyboard.KEY_0))
 			System.out.println("Pressing 0");
 		if(Input.getMouseDown(1))
-			System.out.println("Right Clicking at " + Input.getMousePosition());
+			System.out.println("Right Clicking at " + Input.getMousePosition().toString());
 	}
 	
 	public void update()
