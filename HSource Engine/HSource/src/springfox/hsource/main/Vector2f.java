@@ -39,6 +39,11 @@ public class Vector2f
 	{
 		return new Vector2f(x + r.getX(), y + r.getY());
 	}
+	
+	public Vector2f add(float r)
+	{
+		return new Vector2f(x + r, y + r);
+	}
 
 	private float y;
 
