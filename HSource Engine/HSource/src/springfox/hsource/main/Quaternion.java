@@ -14,6 +14,23 @@ public class Quaternion
 		this.setY(y);
 		this.setZ(z);
 	}
+	
+	public float length()
+	{
+		return (float)Math.sqrt(x * x + y * y + z * z + w * w);
+	}
+	
+	public Quaternion normalize()
+	{
+		float length = length();
+		
+		x /= length;
+		y /= length;
+		z /= length;
+		w /= length;
+		
+		return this;
+	}
 
 	public float getY() {
 		return y;
