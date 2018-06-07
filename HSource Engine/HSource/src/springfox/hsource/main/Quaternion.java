@@ -31,6 +31,21 @@ public class Quaternion
 		
 		return this;
 	}
+	
+	public Quaternion conjugate()
+	{
+		return new Quaternion(-x, -y, -z, w);
+	}
+	
+	public Quaternion mul(Quaternion r)
+	{
+		float w_ = w * r.getW() - x * r.getX() - y * r.getY() - z * r.getZ();
+		float x_ = x * r.getX() + w * r.getX() ;
+		float y_;
+		float z_;
+		
+		return new Quaternion(x_, y_, z_, w_);
+	}
 
 	public float getY() {
 		return y;
