@@ -34,8 +34,9 @@ public class Vector2f
 	{
 		double rad = Math.toRadians(angle);
 		double cos = Math.cos(angle);
+		double sin = Math.sin(angle);
 		
-		return null;
+		return new Vector2f((float)(x * cos - y * sin),(float)(x * sin + y * cos));
 	}
 	
 	public Vector2f add(Vector2f r)
