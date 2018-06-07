@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.DisplayMode"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.Display"/>
+<fullyQualifiedTypeName name="springfox.hsource.main.Window"/>
+<fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+</qualifiedTypeNameHistroy>
