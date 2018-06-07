@@ -88,4 +88,8 @@ public class Input
 		return upMouse.contains(mouseButton);
 	}
 	
+	public static Vector2f getMousePosition()
+	{
+		return new Vector2f(Mouse.getX(), Mouse.getY());
+	}
 }
