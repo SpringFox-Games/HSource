@@ -7,4 +7,9 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.lwjgl.input.Mouse"/>
 <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.GL30"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
+<fullyQualifiedTypeName name="java.nio.FloatBuffer"/>
+<fullyQualifiedTypeName name="org.lwjgl.BufferUtils"/>
+<fullyQualifiedTypeName name="springfox.hsource.main.Util"/>
 </qualifiedTypeNameHistroy>
