@@ -3,6 +3,7 @@ package springfox.hsource.main;
 import static org.lwjgl.opengl.GL20.*;
 import static org.lwjgl.opengl.GL32.*;
 
+import java.nio.FloatBuffer;
 import java.util.HashMap;
 
 public class Shader 
@@ -115,7 +116,12 @@ public class Shader
 		
 		public void setUniform(String uniformName, Matrix4f value)
 		{
-			glUniformMatrix4(uniforms.get(uniformName), true, Util.createFlippedBuffer(value));
+			glUniformMatrix4f(uniforms.get(uniformName), true, Util.createFlippedBuffer(value));
+		}
+
+		private void glUniformMatrix4f(Integer integer, boolean b, FloatBuffer createFlippedBuffer) {
+			// TODO Auto-generated method stub
+			
 		}
 }
 
