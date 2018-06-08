@@ -40,7 +40,7 @@ public class Game
 	{
 		temp += Time.getDelta();
 		
-		shader.setUniformf("uniformFloat", (float)Math.sin(temp));
+		shader.setUniformf("uniformFloat", (float)Math.abs(Math.sin(temp)));
 	}
 	
 	public void render()
