@@ -2,17 +2,17 @@
 The HSource Engine
 
 # Downloads
-Mirror 1: NONE
+Mirror 1: http://bit.ly/hsourmediaf
 
 
 
 
-Mirror 2: NONE
+Mirror 2: http://bit.ly/HSourceDrop
 
 
 
 
-Mirror 3: NONE
+Mirror 3:  http://bit.ly/hsourcedrive
 
 
 
