@@ -8,6 +8,13 @@ public class Transform
 	{
 		translation = new Vector3f(0,0,0);
 	}
+	
+	public Matrix4f getTransformation()
+	{
+		Matrix4f translationMatrix = new Matrix4f().initTranslation(translation.getX(), translation.getY(), translation.getZ());
+		
+		return translationMatrix;
+	}
 
 	public Vector3f getTranslation() {
 		return translation;
