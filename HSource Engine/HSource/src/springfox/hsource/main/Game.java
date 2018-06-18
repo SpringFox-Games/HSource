@@ -45,7 +45,8 @@ public class Game
 		temp += Time.getDelta();
 		
 
-		tempAmount = (float)(Math.sin(temp));
+		transform.setTranslation((float)Math.sin(temp), 0, 0);
+		transform.setRotation(0, 0, (float)Math.sin(temp) * 180);
 	}
 	
 	public void render()
